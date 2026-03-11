@@ -5,7 +5,7 @@ st.set_page_config(page_title="Sidebar Icon Demo", page_icon="🧪", layout="cen
 # --- PNG logo at the top ---
 # Place icon.png next to this file
 st.sidebar.image("pizza-pie.png", width=100)
-st.sidebar.markdown("**P.I.E.S.**)
+st.sidebar.markdown("**:rainbow[P.I.E.S]**")
 st.sidebar.markdown("**Patient Information Entry System**")
 st.sidebar.markdown("---")
 
@@ -36,3 +36,4 @@ st.write(f"**Drug Chosen:** {contact_method}")
 st.write(f"**Shipping:** {shipping_method}")
 st.write(f"**Amy Content:** {drug_content}")
 st.write(f"**:rainbow[Amy was here]**")
+
